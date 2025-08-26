@@ -15,10 +15,9 @@ el jugador seleccionado sera el siguiente en sortear.
 - `Funcionalidad 7`: Eliminar de la lista al participante seleccionado. 
 ## Acceso al proyecto
 ### Primer metodo.
-Para descargar el proyecto se realiza click sobre el recuadro rojo.
+Para descargar el proyecto se realiza click sobre el recuadro rojo (code).
 
-Posteriomente se hace click en el recuadro verde para descargar la carpeta comprimida.
-
+Posteriomente se hace click en el recuadro verde (Download zip) para descargar la carpeta comprimida.
 <img width="603" height="504" alt="image" src="https://github.com/user-attachments/assets/35581de2-1525-4980-ac58-a78b70d01381" />
 Se descomprime la carpeta y se abre el archivo index.html, ya puede ejecutar el juego.
 ### Segundo metodo.

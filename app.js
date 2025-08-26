@@ -42,5 +42,6 @@ function raffleFriend(){
 }
 
 function wash(){
-    let input = document.getElementById("amigo").value = '';
+    let clear = document.getElementById("amigo").value = '';
 }
+

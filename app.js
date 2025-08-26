@@ -1,18 +1,12 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let amigo = [];
-/*let input = document.getElementById("amigo");
-console.log(input);*/
-
-
 
 function addFriend(){
     if(document.getElementById("amigo").value != ''){
         let input = document.getElementById("amigo").value;
         amigo.push(input);
-        console.log(amigo);
         list();
         wash();
-        console.log(amigo.length);
     }else{
         alert('Por favor, inserte un nombre.');
     }
@@ -36,11 +30,10 @@ function raffleFriend(){
     resultado.innerHTML = "";
     if (amigo.length > 0){
         let raffle = Math.floor(Math.random()*amigo.length);
-        let resultadd = document.createElement('li');
-        resultadd.textContent = amigo[raffle];
-        resultado.appendChild(resultadd);
+        let select = document.createElement('li');
+        select.textContent = amigo[raffle];
+        resultado.appendChild(select);
         amigo.splice(raffle,1);
-        console.log(raffle);
         list();
     }else{
         alert('No hay amigos que sortear.');
